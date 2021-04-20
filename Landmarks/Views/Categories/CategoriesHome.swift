@@ -13,7 +13,6 @@ struct CategoriesHome: View {
     @State private var showingProfile = false
     
     var body: some View {
-        
         NavigationView {
             List {
                 modelData.features[0].image
@@ -41,7 +40,6 @@ struct CategoriesHome: View {
             }
         }
     }
-    
 }
 
 struct CategoriesHome_Previews: PreviewProvider {
